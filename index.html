@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Finder</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <h4 class="quote">"Food is good when talked about!" - Anthony Bourdain</h4>
+    <div id="searchContainer">
+        <input type="text" id="searchInput" placeholder="Search for a meal...">
+        <button onclick="searchMeal()">Search</button>
+        <h2 id="searchResultsHeader">Search results:    </h2>
+        <div id="placeholderContent">
+
+            <!-- Placeholder card 1 -->
+            <div class="meal">
+                <img src="images/spaghetti.jpg" alt="Placeholder Image">
+                <h3>Meal Name 1</h3>
+                <p>Ingredient 1, Ingredient 2, Ingredient 3</p>
+                <button onclick="showRecipe()">View Recipe</button>
+            </div>
+            <!-- Placeholder card 2 -->
+            <div class="meal">
+                <img src="images/spaghetti.jpg" alt="Placeholder Image">
+                <h3>Meal Name 2</h3>
+                <p>Ingredient 1, Ingredient 2, Ingredient 3</p>
+                <button onclick="showRecipe()">View Recipe</button>
+            </div>
+            <!-- Placeholder card 3 -->
+            <div class="meal">
+                <img src="images/spaghetti.jpg" alt="Placeholder Image">
+                <h3>Meal Name 3</h3>
+                <p>Ingredient 1, Ingredient 2, Ingredient 3</p>
+                <button onclick="showRecipe()">View Recipe</button>
+            </div>
+            <!-- Placeholder card 4 -->
+            <div class="meal">
+                <img src="images/spaghetti.jpg" alt="Placeholder Image">
+                <h3>Meal Name 4</h3>
+                <p>Ingredient 1, Ingredient 2, Ingredient 3</p>
+                <button onclick="showRecipe()">View Recipe</button>
+            </div>
+        </div>
+    </div>
+    <div id="mealContainer"></div>
+    <div id="recipeContainer" class="recipe"></div>
+
+    <script src="javascript/script.js"></script>
+</body>
+</html>
